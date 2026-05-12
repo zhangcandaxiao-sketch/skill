@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"E:\\\\Desktop\\\\大灿的知识库\\\\大灿的知识库\\\\raw\\\\\"*闲鱼.md 2>/dev/null || echo \"No files found\")",
+      "Read(//e/Desktop/大灿的知识库/大灿的知识库/**)",
+      "Bash(test -f \"E:\\\\Desktop\\\\project\\\\闲鱼商品\\\\商品清单.md\" && cat \"E:\\\\Desktop\\\\project\\\\闲鱼商品\\\\商品清单.md\" || echo \"商品清单不存在\")",
+      "Read(//e/Desktop/project/闲鱼商品/**)",
+      "Bash(mkdir -p \"E:\\\\Desktop\\\\project\\\\闲鱼商品\\\\龙虾12727个技能库Skill开箱即用\\\\images\")"
+    ],
+    "additionalDirectories": [
+      "E:\\Desktop\\project\\闲鱼商品\\龙虾12727个技能库Skill开箱即用",
+      "E:\\Desktop\\project\\闲鱼商品"
+    ]
+  }
+}
